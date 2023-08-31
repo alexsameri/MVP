@@ -10,13 +10,15 @@
     <div class="container">
         <nav>
             <img src="images/logo.png" class="logo">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#conta ct">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
             </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
         </nav>
         <div class="header-text">
             <p>Full stack devops</p>
@@ -73,30 +75,93 @@
         <hi class="sub-titles">My Services</hi>
         <div class="services-list">
             <div>
-                <i class=""fas fa-code"></i>
+                <i class="fas fa-code"></i>
                 <h2>Web Design</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita placeat, doloremque illo optio quas ipsum iste obcaecati exercitationem ea perspiciatis neque delectus necessitatibus, praesentium, voluptatibus earum velit nihil sunt voluptatem. Corporis laboriosam odit vero hic libero, velit animi commodi dolorum illum at! Animi cupiditate assumenda, doloribus saepe quod, numquam sequi accusamus nemo dolore exercitationem totam adipisci distinctio repellat repellendus quidem veritatis, hic rerum illo impedit dignissimos libero. Numquam id voluptas molestias perferendis, quae a dicta esse repellendus voluptatibus? In, quis eius. Odit, optio? Voluptatem veritatis, commodi dolore sunt doloribus provident rem repellat praesentium reprehenderit? Veritatis laborum officiis praesentium incidunt esse.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita exercitationem, incidunt vel id culpa nostrum officia. Quasi deserunt suscipit sequi corporis omnis ex, aliquam iste quod, veritatis iure ullam. Doloremque eos quos totam delectus, a illo autem illum commodi numquam cumque! Incidunt, perspiciatis iure. Facere error rem consectetur quidem temporibus!</p>
                 <a href="#">Learn more</a>
             </div>
             <div>
-                <i class=""fas fa-crop-alt></i>
+                <i class="fas fa-crop=alt"></i>
                 <h2>Accountant</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita placeat, doloremque illo optio quas ipsum iste obcaecati exercitationem ea perspiciatis neque delectus necessitatibus, praesentium, voluptatibus earum velit nihil sunt voluptatem. Corporis laboriosam odit vero hic libero, velit animi commodi dolorum illum at! Animi cupiditate assumenda, doloribus saepe quod, numquam sequi accusamus nemo dolore exercitationem totam adipisci distinctio repellat repellendus quidem veritatis, hic rerum illo impedit dignissimos libero. Numquam id voluptas molestias perferendis, quae a dicta esse repellendus voluptatibus? In, quis eius. Odit, optio? Voluptatem veritatis, commodi dolore sunt doloribus provident rem repellat praesentium reprehenderit? Veritatis laborum officiis praesentium incidunt esse.</p>
-                <a href="#">Learn more</a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, tenetur officia. Fugiat corporis, vitae voluptatem non, perferendis eos perspiciatis dolor deleniti quibusdam voluptas vero illo excepturi odit consequatur labore ipsam dignissimos ipsa, officiis tempore. Odio eaque labore optio sint deserunt, reprehenderit, laboriosam molestias corrupti possimus debitis consectetur, facere voluptatum. Ut.</p>
             </div>
             <div>
-                <i class="fab fa-app-store"
+                <i class="fab fa-app-store"></i>
                 <h2>Auditor</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita placeat, doloremque illo optio quas ipsum iste obcaecati exercitationem ea perspiciatis neque delectus necessitatibus, praesentium, voluptatibus earum velit nihil sunt voluptatem. Corporis laboriosam odit vero hic libero, velit animi commodi dolorum illum at! Animi cupiditate assumenda, doloribus saepe quod, numquam sequi accusamus nemo dolore exercitationem totam adipisci distinctio repellat repellendus quidem veritatis, hic rerum illo impedit dignissimos libero. Numquam id voluptas molestias perferendis, quae a dicta esse repellendus voluptatibus? In, quis eius. Odit, optio? Voluptatem veritatis, commodi dolore sunt doloribus provident rem repellat praesentium reprehenderit? Veritatis laborum officiis praesentium incidunt esse.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda obcaecati laboriosam in fugiat dolore tempore corporis ut ullam maxime perferendis repellendus tenetur blanditiis molestias nemo minus, natus esse facilis quaerat voluptatem? Autem commodi mollitia libero illo molestias amet consequatur quidem sit aperiam accusantium fugiat deserunt ex, impedit alias velit animi?</p>
                 <a href="#">Learn more</a>
             </div>
         </div>
     </div>
 </div>
+<!-- --------------------------Portfolio-------------------- -->
+<div id="portfolio">
+    <div class="cotainer">
+        <h1 class="subtitles">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, consequuntur?</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, consequuntur?</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, consequuntur?</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- --------------------------contact--------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p><i class="fa fa-paper-plane"></i>samerialexx@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>012345678</p>
+                <div class="social-icons">
+                    <a href="https://twitter.com"><i class="fab fa-twitter-square"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                </form>
 
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyroght <i class="fas fa-heart"></i></p>
+
+    </div>
+</div>
 <script>
     var tablinks = document.getElementsByClassName("tab-links");
     var tabcontents = document.getElementsByClassName("tab-contents");
+    
     function opentab(tabname) {
         for (tablink of tablinks) {
             tablink.classList.remove("active-link");
@@ -106,6 +171,17 @@
         }
         event.currentTarget.classList.add("active-link");
         document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu() {
+        sidemenu.style.right = "0";
+    }
+    function closemenu() {
+        sidemenu.style.right = "-200px";
     }
 </script>
 </body>
