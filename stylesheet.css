@@ -17,7 +17,7 @@ body {
 #header {
     width: 100%;
     height: 100vh;
-    background-image: url(images/background.png);
+    /* background-image: url(images/background.png); */     /* use your background with a pic that has a dark background */
     background-size: cover;
     background-position: right bottom;
 }

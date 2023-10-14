@@ -9,13 +9,13 @@
 <div id="header">
     <div class="container">
         <nav>
-            <img src="images/logo.png" class="logo">
+            <img src="/../" class="logo">
             <ul id="sidemenu">
                 <li><a href="#header">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#services">Services</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#conta ct">Contact</a></li>
+                <li><a href="#contact">Contact</a></li>
                 <i class="fas fa-times" onclick="closemenu()"></i>
             </ul>
             <i class="fas fa-bars" onclick="openmenu()"></i>
@@ -31,7 +31,7 @@
     <div class="container">
         <div class="row">
             <div class="about-col-1">
-                <img src="images/Alex.jpg" alt="">
+                <img src="/.../" alt="">
             </div>
             <div class="about-col-2">
                 <h1 class="sub-title">About Me</h1>
@@ -50,26 +50,26 @@
                     </ul>
                 </div>
                 
-                <div class="tab-contents" id="Experience">
+                <div class="tab-contents active-tab" id="Experience">
                     <ul>
                         <li><span>Wdev</span><br>Operating the server</li>
                         <li><span>App development</span><br>Building android/iOS apps</li>
                         <li><span>Web dev</span><br>Operating the server</li>
                     </ul>
-                    <div class="tab-contents" id="Education">
-                        <ul>
-                            <li><span>2020 - present</span><br>Economics and Statistics</li>
-                            <li><span>2022 - present</span><br>Software engineering</li>
-                            <li><span>2020 - present</span><br>CPA</li>
-                        </ul>
-                    </div>
                 </div>
+                <div class="tab-contents active-tab" id="Education">
+                    <ul>
+                        <li><span>2020 - present</span><br>Economics and Statistics</li>
+                        <li><span>2022 - present</span><br>Software engineering</li>
+                        <li><span>2020 - present</span><br>CPA</li>
+                    </ul>
+                </div>  
             </div>
         </div>
     </div>
 </div>
-<!-- ---------------------services---------------------------- -->
 
+<!-- ---------------------services---------------------------- -->
 <div id="services">
     <div class="container">
         <hi class="sub-titles">My Services</hi>
@@ -133,12 +133,12 @@
         <div class="row">
             <div class="contact-left">
                 <h1 class="sub-title">Contact me</h1>
-                <p><i class="fa fa-paper-plane"></i>samerialexx@gmail.com</p>
+                <a href="mailto: samerialexx@gmail.com">Email me</a>
                 <p><i class="fas fa-phone-square-alt"></i>012345678</p>
                 <div class="social-icons">
                     <a href="https://twitter.com"><i class="fab fa-twitter-square"></i></a>
-                    <a href=""><i class="fab fa-instagram"></i></a>
-                    <a href=""><i class="fab fa-linkedin"></i></a>
+                    <a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/mlaha-janet/"><i class="fab fa-linkedin"></i></a>
                 </div>
                 <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
             </div>
@@ -158,6 +158,7 @@
 
     </div>
 </div>
+<!-- --------------------javascript------------------ -->
 <script>
     var tablinks = document.getElementsByClassName("tab-links");
     var tabcontents = document.getElementsByClassName("tab-contents");
